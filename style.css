@@ -1,110 +1,126 @@
 * {
 	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 body {
 	background-color: rgb(214, 73, 73);
-	width: 1440px;
-	height: 684px;
 }
 
 main {
-	border-left: 50%;
 	background-color: rgb(242, 242, 242);
-	width: 1110px;
 	height: 615px;
+	width: 1110px;
+	margin-left: 165px;
 }
 
 footer {
-	color: rgb(242, 242, 242);
-	height: 70px;
 	background-color: rgb(59, 59, 59);
+	height: 70px;
+	width: 1440px;
+	color: white;
+}
+
+.card {
+	width: 200px;
+	height: 300px;
+	border-radius: 15px;
+	margin-top: 56px;
+	margin-left: 50px;
+	box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 h1 {
-	position: absolute;
-	width: 64px;
-	height: 16px;
-	top: 100px;
-	left: 215px;
+	padding-left: 49px;
 	font-family: Roboto;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 16.41px;
 	text-align: left;
-	text-underline-position: from-font;
-	text-decoration-skip-ink: none;
 }
 
 h2 {
-	position: absolute;
 	width: 1009px;
-	height: 19px;
-	top: 128px;
-	left: 215px;
+	text-align: right;
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 18.75px;
 	letter-spacing: 0.07em;
-	text-align: right;
-	text-underline-position: from-font;
-	text-decoration-skip-ink: none;
+}
+
+h3 {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16.41px;
+	letter-spacing: 0.04em;
+	text-align: left;
+}
+
+.card > p {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16.41px;
+	text-align: left;
+}
+
+#cardText {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 main > p {
-	position: absolute;
 	width: 1009px;
-	height: 23px;
-	top: 154px;
-	left: 215px;
+	text-align: center;
 	font-family: Roboto;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 23.44px;
 	text-align: center;
-	text-underline-position: from-font;
-	text-decoration-skip-ink: none;
 }
 
 main > p > span {
-	font-family: Roboto;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 23.44px;
-	text-align: center;
 	color: rgb(143, 39, 39);
 }
 
 footer > p {
-	position: absolute;
-	width: 176px;
-	height: 16px;
-	top: 642px;
-	left: 632px;
+	padding-left: 632px;
 	font-family: Roboto;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 16.41px;
 	text-align: left;
-	text-underline-position: from-font;
-	text-decoration-skip-ink: none;
 }
 
 #rectangleFooter {
-	position: absolute;
-	background-color: #d9d9d9;
 	width: 13px;
 	height: 27px;
-	top: 615px;
-	left: 735px;
+	background-color: #d9d9d9;
+	margin-left: 735px;
 }
 
 #rectangleMain {
 	position: absolute;
-	background-color: #d9d9d9;
 	width: 49px;
 	height: 2px;
 	top: 106px;
-	left: 165px;
+	background-color: #d9d9d9;
+}
+
+#rectangleContainer {
+	position: relative;
+	padding-top: 100px;
+}
+
+#round {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 54px;
+    background-color: #D9D9D9;
+    top: 489px;
+    left: 368px;
 }
